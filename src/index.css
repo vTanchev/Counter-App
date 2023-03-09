@@ -12,6 +12,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: rgba(245, 31, 84, 0.863);
+  color: #fff;
 }
 
 code {

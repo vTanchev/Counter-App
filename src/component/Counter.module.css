@@ -5,7 +5,11 @@
   justify-content: center;
 }
 
-.counter {
+.countainer h3 {
   font-size: 50px;
   font-weight: 400;
+}
+
+.counter {
+  font-size: 50px;
 }

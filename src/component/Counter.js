@@ -6,7 +6,6 @@ import classes from "./Counter.module.css";
 
 const Counter = () => {
   const [count, setCount] = useState(0);
-  console.log(count);
 
   const incrementNumber = () => {
     setCount(count + 1);
@@ -23,12 +22,9 @@ const Counter = () => {
     setCount(0);
   };
 
-  const multiplyCount = () => {
-    setCount(count * count);
-  };
-
   return (
     <div className={classes["countainer"]}>
+      <h3>Counter App</h3>
       <div className={classes["counter"]}>{count}</div>
       <div className={classes["btns-container"]}>
         <Button handleOnClick={incrementNumber} btnName={"+"} />

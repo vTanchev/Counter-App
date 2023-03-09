@@ -1,0 +1,9 @@
+.btn {
+  border: none;
+  margin: 0 2px;
+  padding: 10px 20px;
+  font-size: 22px;
+  color: #fff;
+  background-color: rgba(245, 31, 84, 0.863);
+  cursor: pointer;
+}
